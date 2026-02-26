@@ -1,0 +1,9 @@
+/home/fernando/Desktop/rosbot_ws/build/rosbot_cpp_examples/CMakeFiles/uninstall.dir
+/home/fernando/Desktop/rosbot_ws/build/rosbot_cpp_examples/CMakeFiles/rosbot_cpp_examples_uninstall.dir
+/home/fernando/Desktop/rosbot_ws/build/rosbot_cpp_examples/CMakeFiles/test.dir
+/home/fernando/Desktop/rosbot_ws/build/rosbot_cpp_examples/CMakeFiles/edit_cache.dir
+/home/fernando/Desktop/rosbot_ws/build/rosbot_cpp_examples/CMakeFiles/rebuild_cache.dir
+/home/fernando/Desktop/rosbot_ws/build/rosbot_cpp_examples/CMakeFiles/list_install_components.dir
+/home/fernando/Desktop/rosbot_ws/build/rosbot_cpp_examples/CMakeFiles/install.dir
+/home/fernando/Desktop/rosbot_ws/build/rosbot_cpp_examples/CMakeFiles/install/local.dir
+/home/fernando/Desktop/rosbot_ws/build/rosbot_cpp_examples/CMakeFiles/install/strip.dir
