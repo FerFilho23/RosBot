@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: rosbot-py-examples
-Version: 1.0.0
-Summary: ROS2 Python examples for ROSbot
-Maintainer: Fernando Filho
-Maintainer-email: fernando.rsf23@gmail.com
-License: MIT License
-Provides-Extra: test
