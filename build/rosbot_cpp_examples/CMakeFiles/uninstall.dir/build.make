@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernando/Desktop/rosbot_ws/src/rosbot_cpp_examples
+CMAKE_SOURCE_DIR = /home/fernando/Desktop/RosBot/src/rosbot_cpp_examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernando/Desktop/rosbot_ws/build/rosbot_cpp_examples
+CMAKE_BINARY_DIR = /home/fernando/Desktop/RosBot/build/rosbot_cpp_examples
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/fernando/Desktop/rosbot_ws/build/rosbot_cpp_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Desktop/rosbot_ws/src/rosbot_cpp_examples /home/fernando/Desktop/rosbot_ws/src/rosbot_cpp_examples /home/fernando/Desktop/rosbot_ws/build/rosbot_cpp_examples /home/fernando/Desktop/rosbot_ws/build/rosbot_cpp_examples /home/fernando/Desktop/rosbot_ws/build/rosbot_cpp_examples/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/fernando/Desktop/RosBot/build/rosbot_cpp_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Desktop/RosBot/src/rosbot_cpp_examples /home/fernando/Desktop/RosBot/src/rosbot_cpp_examples /home/fernando/Desktop/RosBot/build/rosbot_cpp_examples /home/fernando/Desktop/RosBot/build/rosbot_cpp_examples /home/fernando/Desktop/RosBot/build/rosbot_cpp_examples/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "rosbot_cpp_examples")
 set(rosbot_cpp_examples_VERSION "0.0.0")
-set(rosbot_cpp_examples_MAINTAINER "fernando <fernando@todo.todo>")
+set(rosbot_cpp_examples_MAINTAINER "Fernando Filho <fernando.rsf23@gmail.com>")
 set(rosbot_cpp_examples_BUILD_DEPENDS )
 set(rosbot_cpp_examples_BUILDTOOL_DEPENDS "ament_cmake")
 set(rosbot_cpp_examples_BUILD_EXPORT_DEPENDS )
