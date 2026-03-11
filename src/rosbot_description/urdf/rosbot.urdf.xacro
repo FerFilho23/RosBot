@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
 <robot name="rosbot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
+    <!-- Root planar reference frame used for navigation and ground projection. -->
     <link name="base_footprint"/>
 
+    <!-- Main chassis body that carries the robot visual mesh and child joints. -->
     <link name="base_link">
         <visual>
             <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
@@ -12,12 +14,14 @@
         </visual>
     </link>
 
+    <!-- Fixed transform that lifts the chassis from the ground reference frame. -->
     <joint name="base_joint" type="fixed">
         <parent link="base_footprint"/>
         <child link="base_link"/>
         <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.033"/>
     </joint>
 
+    <!-- Right drive wheel visual and physical frame. -->
     <link name="wheel_right_link">
         <visual>
             <origin rpy="1.57 0.0 0.0" xyz="0.0 0.0 0.0"/>
@@ -27,6 +31,7 @@
         </visual>
     </link>
 
+    <!-- Continuous joint that lets the right wheel spin for propulsion. -->
     <joint name="wheel_right_joint" type="continuous">
         <parent link="base_link"/>
         <child link="wheel_right_link"/>
@@ -34,6 +39,7 @@
         <axis xyz="0 1 0"/>
     </joint>
 
+    <!-- Left drive wheel visual and physical frame. -->
     <link name="wheel_left_link">
         <visual>
             <origin rpy="-1.57 0.0 0.0" xyz="0.0 0.0 0.0"/>
@@ -43,6 +49,7 @@
         </visual>
     </link>
 
+    <!-- Continuous joint that lets the left wheel spin for propulsion. -->
     <joint name="wheel_left_joint" type="continuous">
         <parent link="base_link"/>
         <child link="wheel_left_link"/>
@@ -50,6 +57,7 @@
         <axis xyz="0 1 0"/>
     </joint>
 
+    <!-- Front caster support that stabilizes the chassis without driving it. -->
     <link name="caster_front_link">
         <visual>
             <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
@@ -59,12 +67,14 @@
         </visual>
     </link>
 
+    <!-- Fixed mount positioning the front caster beneath the chassis. -->
     <joint name="caster_front_joint" type="fixed">
         <parent link="base_link"/>
         <child link="caster_front_link"/>
         <origin rpy="0.0 0.0 0.0" xyz="0.04755 0.0 -0.0275"/>
     </joint>
 
+    <!-- Rear caster support that keeps the robot balanced at the back. -->
     <link name="caster_rear_link">
         <visual>
             <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
@@ -74,10 +84,10 @@
         </visual>
     </link>
 
+    <!-- Fixed mount positioning the rear caster beneath the chassis. -->
     <joint name="caster_rear_joint" type="fixed">
         <parent link="base_link"/>
         <child link="caster_rear_link"/>
         <origin rpy="0.0 0.0 0.0" xyz="-0.04755 0.0 -0.0275"/>
     </joint>
-
 </robot>
