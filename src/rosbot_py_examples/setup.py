@@ -27,6 +27,7 @@ setup(
         'console_scripts': [
             'simple_publisher = rosbot_py_examples.simple_publisher:main',
             'simple_subscriber = rosbot_py_examples.simple_subscriber:main',
+            'simple_parameter = rosbot_py_examples.simple_parameter:main',
         ],
     },
 )
